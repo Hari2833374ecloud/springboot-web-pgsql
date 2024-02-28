@@ -17,4 +17,4 @@ deploy:
 
 properties:
   title: Spring Boot Web
-  nano: 84
+  nano: 85
