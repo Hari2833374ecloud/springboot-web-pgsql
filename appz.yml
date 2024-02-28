@@ -1,12 +1,12 @@
 app:
   code: SBW
-  name: Spring Boot v3
+  name: Spring Boot-v2
   notify: hkrishnan@ecloudcontrol.com
   
 build:
   build_file: pom.xml
   env: DEV
-  image_template: springboot-v3
+  image_template: springboot-v2
   output_files: target/*.jar
   version: 0.4
   
@@ -14,3 +14,7 @@ deploy:
   context: Hari2833374ecloud/DEV
   port: 8080
   replicas: 1
+
+properties:
+  title: Spring Boot Web
+  nano: 83
