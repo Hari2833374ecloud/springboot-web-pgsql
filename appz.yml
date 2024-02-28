@@ -1,12 +1,12 @@
 app:
   code: SBW
-  name: Spring Boot-v2
+  name: springboot_base-0.2
   notify: hkrishnan@ecloudcontrol.com
   
 build:
   build_file: pom.xml
   env: DEV
-  image_template: springboot-v2
+  image_template: springboot_base-0.2
   output_files: target/*.jar
   version: 0.4
   
